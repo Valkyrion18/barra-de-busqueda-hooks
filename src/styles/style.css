@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(113, 113, 185);
+}
+
+.filas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-busqueda{
+    display: flex;
+    justify-content: center;
+}
+
+.estilo-busqueda{
+    width: 16rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.estilo-card{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+h4{
+    text-align: center;
+    font-size: 28px;
+}
+
+.estilo-imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.estilo-titulo{
+    text-align: center;
+    font-size: 16px;
+}
